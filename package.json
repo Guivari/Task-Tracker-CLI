@@ -1,0 +1,35 @@
+{
+  "name": "task-tracker-cli",
+  "version": "1.0.0",
+  "description": "A simple command line interface (CLI) app to track and manage tasks.",
+  "homepage": "https://github.com/Guivari/Task-Tracker-CLI#readme",
+  "bugs": {
+    "url": "https://github.com/Guivari/Task-Tracker-CLI/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Guivari/Task-Tracker-CLI.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "link-local": "npm link",
+    "build-link": "npm run build && npm run link-local"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "commander": "^14.0.2"
+  },
+  "bin": {
+    "task-cli": "dist/index.js"
+  },
+  "type": "module"
+}
