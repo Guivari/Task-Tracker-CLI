@@ -27,3 +27,5 @@ ENDPOINTS:
  - task-cli list todo
  - task-cli list in-progress
 
+Project idea taken from Roadmap.sh
+https://roadmap.sh/projects/task-tracker
